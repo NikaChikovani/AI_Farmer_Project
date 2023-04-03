@@ -1,0 +1,81 @@
+# put here your custom config value
+
+menu "Device Settings"
+
+config DEVICE_ID
+    string "DEVICE ID"
+    default "greenhousetest12"
+    help
+	ID (device name) for connection.
+	
+config POST_URL
+    string "https://api.aifarmer.co/create-greenhouse"
+    default "post url"
+
+config GET_URL
+    string "https://api.aifarmer.co/desired-greenhouse/"
+    default "get url"	
+	
+endmenu
+
+menu "GPIO Configuration"
+
+    config WIFI_LED_GPIO
+        int "WIFI LED GPIO number"
+        range 0 48
+        default 5
+        help
+            GPIO number for wifi led.
+
+    config IRRIGATION_GPIO
+        int "Pump GPIO number"
+        range 0 48
+        default 18
+        help
+            GPIO number for Pump control.
+        
+    config LIGHT_GPIO
+        int "LIGHT GPIO number"
+        range 0 48
+        default 19
+        help
+            GPIO number for Light control.
+
+endmenu
+
+menu "DS18B20 Configuration"
+
+    config DS18B20_GPIO
+        int "DS18B20 GPIO number"
+        range 0 48
+        default 22
+        help
+            GPIO number to DS18B20.
+
+endmenu
+
+menu "DHT22 Configuration"
+
+    config 	DHT22_GPIO
+        int "DHT22 GPIO number"
+        range 0 48
+        default 21
+        help
+            GPIO number to DHT22.
+
+endmenu
+
+menu "Wifi Configuration"
+config ESP_WIFI_SSID
+    string "WiFi SSID"
+    default "myssid"
+    help
+	SSID (network name) for the example to connect to.
+
+config ESP_WIFI_PASSWORD
+    string "WiFi Password"
+    default "mypassword"
+    help
+	WiFi password (WPA or WPA2) for the example to use.
+	
+endmenu
