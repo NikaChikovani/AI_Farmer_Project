@@ -9,12 +9,12 @@ config DEVICE_ID
 	ID (device name) for connection.
 	
 config POST_URL
-    string "https://api.aifarmer.co/create-greenhouse"
-    default "post url"
+    string "POST url"
+    default "https://api.aifarmer.co/create-greenhouse"
 
 config GET_URL
-    string "https://api.aifarmer.co/desired-greenhouse/"
-    default "get url"	
+    string "GET url"
+    default "https://api.aifarmer.co/desired-greenhouse/"	
 	
 endmenu
 

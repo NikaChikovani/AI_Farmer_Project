@@ -1,4 +1,4 @@
-# Install script for directory: D:/Espressif/frameworks/esp-idf-v5.0/components/esp_system/port
+# Install script for directory: D:/esp/esp-idf/components/esp_system/port
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "D:/esp/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Espressif/frameworks/esp-idf-v5.0/workspace/AI_Farmer_Project/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake")
+  include("C:/Users/Dell/Desktop/GITHUB/AI_Farmer_Project/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake")
 endif()
 

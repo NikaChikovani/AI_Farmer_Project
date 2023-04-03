@@ -1,4 +1,4 @@
-/* * Data converted from D:/Espressif/frameworks/esp-idf-v5.0/workspace/AI_Farmer_Project/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/Dell/Desktop/GITHUB/AI_Farmer_Project/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
